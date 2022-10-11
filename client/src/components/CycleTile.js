@@ -3,7 +3,7 @@ import React from 'react'
 const CycleTile = (props) => {
   return (
     <div>
-      <h1>{props.cycle.startDate}</h1>
+      <h1>{props.cycle.startMonth}/{props.cycle.startDay}/{props.cycle.startYear}</h1>
     </div>
   )
 }

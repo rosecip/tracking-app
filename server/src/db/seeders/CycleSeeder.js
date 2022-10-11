@@ -4,20 +4,28 @@ class CycleSeeder {
   static async seed() {
     const cycleData = [
       {
-        startDate: "6/6/22",
+        startDay: "16",
+        startMonth: "04",
+        startYear: "22",
         userId: 1,
       },
       {
-        startDate: "7/6/22",
-        userId: 2,
+        startDay: "18",
+        startMonth: "05",
+        startYear: "22",
+        userId: 1,
       },
       {
-        startDate: "8/6/22",
-        userId: 2,
+        startDay: "13",
+        startMonth: "06",
+        startYear: "22",
+        userId: 1,
       },
       {
-        startDate: "9/6/22",
-        userId: 2,
+        startDay: "18",
+        startMonth: "07",
+        startYear: "22",
+        userId: 1,
       },
     ];
 
