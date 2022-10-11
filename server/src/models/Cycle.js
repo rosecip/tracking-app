@@ -8,9 +8,11 @@ class Cycle extends Model {
   static get jsonSchema() {
     return {
       type: "object",
-      required: ["startDate"],
+      required: ["startDay", "startMonth", "startYear"],
       properties: {
-        startDate: { type: "string" },
+        startDay: { type: "string" },
+        startMonth: { type: "string" },
+        startYear: { type: "string" }
       },
     };
   }
